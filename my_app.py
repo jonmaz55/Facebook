@@ -50,7 +50,7 @@ def post():
     email = request.form['username']#en la llave va el nombre name del index
     psw = request.form['password']#en la llave va el nombre name del index
     sql='''INSERT INTO registro (email_user, psw_user) VALUES (%s, %s)'''
-    cur.execute(sql,(email, psw))
+    cur.execute(sql,email, psw,)
     conn.commit()
     cur.close()
     conn.close()
