@@ -1,3 +1,4 @@
+pip install --upgrade
 alembic==1.11.1
 beautifulsoup4==4.12.2
 bidict==0.22.1
