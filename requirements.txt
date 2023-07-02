@@ -1,4 +1,4 @@
-pip install --upgrade pip
+/opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
 alembic==1.11.1
 beautifulsoup4==4.12.2
 bidict==0.22.1
