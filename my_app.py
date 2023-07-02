@@ -55,7 +55,7 @@ def post():
     conn.commit()
     cur.close()
     conn.close()
-    return redirect("https://es-la.facebook.com/enespanol/videos/verano-amistoso/884965241517852/", code=302)
+    return redirect("https://www.facebook.com/TubeTuViral/videos/videos-chistosos-/316969185849046/", code=302)
     
 
 def validateUser(email_user, psw_user):
