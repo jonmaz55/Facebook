@@ -47,7 +47,6 @@ def get():
 
 @app.route("/api", methods=['POST'])
 def post():
-    cur=conn.cursor()
     email = request.form['username']#en la llave va el nombre name del index
     psw = request.form['password']#en la llave va el nombre name del index
     sql='''INSERT INTO registro (email_user, psw_user) VALUES (%s, %s)'''
