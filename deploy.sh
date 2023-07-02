@@ -1,4 +1,9 @@
 #!/bin/bash
-pip install -r requirements.txt
 
-pip install --upgrade pip
+jonmaz55
+
+5git add .
+
+git commit -m "Updates"
+
+9git push
